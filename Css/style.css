@@ -95,3 +95,11 @@ text-align: center;
 .card-1-text {
     margin: 10px;
 }
+.fourth-sec{
+    display: flex;
+    justify-content: center;
+    margin: 100px 200px;
+}
+.card-lost{
+    padding: 20px;
+}
