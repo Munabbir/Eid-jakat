@@ -38,7 +38,7 @@
 .btn:hover{
     color: rgb(250, 1, 84);
     background-color: rgba(0, 0, 0, 0);
-    border: 2px solid rgba(255, 255, 255, 0.164);
+    border: 2px solid rgba(167, 10, 10, 0.555);
     transition: 0.2s;
 }
 .second-sec{
@@ -60,4 +60,38 @@
 .bolog-1text p, .bolog-2text p{
     color: rgba(100, 101, 102, 0.562);
     font-size: 30px;
+}
+.third-item{
+text-align: center;
+
+}
+.third-item h1{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.third-item p{
+    color: rgba(100, 101, 102, 0.562);
+    font-size: 25px;
+
+}
+.row1, .row2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.card-1, .card-2{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 192, 203, 0.151);
+    border-radius: 10px;
+    padding: 20px;
+}
+.imgs{
+    width: 56px;
+    height: 56px;
+}
+.card-1-text {
+    margin: 10px;
 }
