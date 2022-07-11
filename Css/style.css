@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.frst-sec{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(48, 45, 45, 0.041),#000000b2),url(../img/Bgraund.png);
+    background-size: cover;
+    background-position: center;
+}
+.frst-textbox{
+    width: 40%;
+    top: 30%;
+    color: aliceblue;
+    position: absolute;
+    left: 10%;
+}
+.frst-textbox h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+.frst-textbox p{
+    font-size: 30px;
+}
+.btn{
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: rgb(250, 1, 84);
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(250, 1, 84);
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(255, 255, 255, 0.164);
+    transition: 0.2s;
+}
