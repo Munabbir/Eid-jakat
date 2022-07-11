@@ -103,3 +103,85 @@ text-align: center;
 .card-lost{
     padding: 20px;
 }
+.fifth-sec{
+    margin: 100px, 200px;
+}
+.titel-text{
+    text-align: center;
+}
+.titel-text h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.titel-text p{
+    font-size: 25px;
+    color: rgba(100, 101, 102, 0.562);
+}
+.titel-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.card {
+    width: 360px;
+    height: 450px;
+    box-shadow: 1px 1px 2px grey;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 10px;
+}
+.text-box{
+    padding: 10px 15px;
+
+}
+.text-box h1{
+    font-size: 40px;
+    font-family: 600;
+}
+.text-box p{
+    font-size: 20px;
+    color: rgba(100, 101, 102, 0.562);
+}
+.btns{
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(250, 1, 84);
+    background-color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btns:hover{
+    color: #fff;
+    text-decoration: underline  solid rgb(252, 227, 0);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(253, 249, 0, 0.555);
+    transition: 0.2s;
+
+}
+.futer-sec{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.futer-text{
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    padding: 45px 100px 45px 100px;
+}
+.futer-text h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: red;
+}
+.futer-text p{
+    font-size: 20px;
+
+} 
+
